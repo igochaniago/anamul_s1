@@ -39,8 +39,7 @@ library(readxl)
 library(MVN)
 
 #Membaca file data excel
-#data1 <- read_excel("1_Analisis Outlier/IC_Data Outlier.xlsx")
-data1 <- read_excel("E:/IGO Programming Project/Github Repo/AnamulS1_Tgs1/IC_Data Outlier.xlsx")
+data1 <- read_excel("1_Analisis Outlier/IC_Data Outlier.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data1)
@@ -478,3 +477,4 @@ ke-:
 
 Untuk dianggap sebagai outlier dan sebaiknya dihapuskan sebelum
 dilakukan pengolahan data lebih lanjut.
+

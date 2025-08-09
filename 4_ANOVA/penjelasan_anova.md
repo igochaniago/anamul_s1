@@ -34,8 +34,7 @@ pada poin (a)? Jika tidak, jelaskan perbedaannya.
 library(readxl)
 
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/4_ANOVA/IC_Data ANOVA.xlsx")
-#data <- read_excel("4_ANOVA/IC_Data ANOVA.xlsx")
+data <- read_excel("4_ANOVA/IC_Data ANOVA.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -205,4 +204,5 @@ dan MANOVA. Hasil pada uji MANOVA dan ANOVA konsisten menyatakan bahwa
 variabel “560CM” dan “720CM” tidak berpengaruh secara signifikan
 terhadap variabel “Species”, “Nutrient”, serta terhadap interaksi
 “Species\*Nutrient”.
+
 

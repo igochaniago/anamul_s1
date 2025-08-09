@@ -64,8 +64,7 @@ library(VIM)
 
 ``` r
 #Membaca file data excel "missing data"
-#data <- read_excel("2_Analisis Missing Value/IC_Data Missing.xlsx") 
-data <- read_excel("E:/IGO Programming Project/Github Repo/2_Analisis Missing Value/IC_Data Missing.xlsx")
+data <- read_excel("2_Analisis Missing Value/IC_Data Missing.xlsx") 
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -219,8 +218,7 @@ data$Midterm = ifelse(is.na(data$Midterm),ave(data$Midterm, FUN = function(x)mea
 data$TakeHome = ifelse(is.na(data$TakeHome),ave(data$TakeHome,FUN = function(x)mean(x, na.rm = TRUE)), data$TakeHome)
 
 #Export data hasil mean imputation dari R ke Excel
-write_xlsx(data, "E:/IGO Programming Project/Github Repo/2_Analisis Missing Value/IC_Data Missing_AfterMeanImp.xlsx")
-#write_xlsx(data, "2_Analisis Missing Value/IC_Data Missing_AfterMeanImp.xlsx") 
+write_xlsx(data, "2_Analisis Missing Value/IC_Data Missing_AfterMeanImp.xlsx") 
 
 #Cek apakah masih ada missing data dalam file excel terbaru
 is.na(data)
@@ -342,8 +340,7 @@ dataset yang digunakan.
 
 ``` r
 #Membaca file data excel "missing data"
-#data2 <- read_excel("2_Analisis Missing Value/IC_Data Missing.xlsx") 
-data2 <- read_excel("E:/IGO Programming Project/Github Repo/2_Analisis Missing Value/IC_Data Missing.xlsx")
+data2 <- read_excel("2_Analisis Missing Value/IC_Data Missing.xlsx") 
 
 #Mengecek file excel sudah dapat terbaca
 View(data2)
@@ -478,8 +475,7 @@ Selanjutnya, kita jalankan coding untuk melakukan metode kNN imputation
 hasildata2 <- kNN(data2, k = 9)
 
 #Export data hasil kNN Imputation dari R ke Excel
-write_xlsx(data2, "E:/IGO Programming Project/Github Repo/2_Analisis Missing Value/IC_Data Missing_AfterkNNImp.xlsx")
-#write_xlsx(data, "2_Analisis Missing Value/IC_Data Missing_AfterkNNImp.xlsx") 
+write_xlsx(data, "2_Analisis Missing Value/IC_Data Missing_AfterkNNImp.xlsx") 
 
 #Cek apakah masih ada missing data dalam file excel terbaru
 is.na(hasildata2)
@@ -691,3 +687,4 @@ data yang semula missing sudah terisi semua nilainya dengan menggunakan
 metode kNN Imputation.
 
 ## 
+

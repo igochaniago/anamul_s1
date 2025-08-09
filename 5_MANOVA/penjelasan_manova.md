@@ -37,8 +37,7 @@ lainnya pada main effect dan interaction
 library(readxl)
 
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/5_MANOVA/IC_Data MANOVA.xlsx")
-#data <- read_excel("5_MANOVA/IC_Data MANOVA.xlsx")
+data <- read_excel("5_MANOVA/IC_Data MANOVA.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -558,3 +557,4 @@ D. Variabel”Y4”
 
 - Interaksi y1, y2, dan y3 secara simultan tidak berpengaruh terhadap
   variabel y4
+

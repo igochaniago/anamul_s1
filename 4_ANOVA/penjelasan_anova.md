@@ -14,7 +14,7 @@ Soal:
 
 Lakukan ANOVA pada data yang disediakan (Refer to IC_Data ANOVA.xlsx)
 
-Terdapat 6 data dengan 4 varaibel. 2 variabel (“560CM” dan “720CM”)
+Terdapat 6 data dengan 4 variabel. 2 variabel (“560CM” dan “720CM”)
 dianggap sebagai variabel dependen dan 2 variabel lainnya (“Species” dan
 “Nutrient”) dianggap sebagai variabel independen.
 
@@ -205,3 +205,4 @@ dan MANOVA. Hasil pada uji MANOVA dan ANOVA konsisten menyatakan bahwa
 variabel “560CM” dan “720CM” tidak berpengaruh secara signifikan
 terhadap variabel “Species”, “Nutrient”, serta terhadap interaksi
 “Species\*Nutrient”.
+

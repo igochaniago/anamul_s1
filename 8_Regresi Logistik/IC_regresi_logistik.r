@@ -9,8 +9,7 @@ library(lmtest)
 library(vcdExtra)
 
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/8_Regresi Logistik/IC_Data Regresi Logistik.xlsx")
-#data <- read_excel("8_Regresi Logistik/IC_Data Regresi Logistik.xlsx")
+data <- read_excel("8_Regresi Logistik/IC_Data Regresi Logistik.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -35,4 +34,5 @@ lmtest::bptest(model)
 summary(model)
 
 #Mengecek kesesuaian model dengan Hosmer-Lemeshow Test
+
 HLtest(model)

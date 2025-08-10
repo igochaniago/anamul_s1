@@ -19,6 +19,6 @@ Pengolahan data yang ada di repository ini mencakup:
 14. Analisis Konjoin
 15. Analisis Korelasi Kanonikal
 
-Repository ini akan disusun per folder mengikuti daftar di atas. Selain itu akan ada folder tambahan khusus untuk hasil uji dari soal ujian tengah semester (UTS) dan ujian akhir semester (UAS). 
+Repository ini akan disusun per folder mengikuti daftar di atas.
 
 **Soal yang digunakan dapat dianggap sebagai dummy project hanya untuk memenuhi keperluan perkuliahan dan bukan data asli**

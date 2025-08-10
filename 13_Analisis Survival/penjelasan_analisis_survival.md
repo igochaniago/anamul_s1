@@ -1,5 +1,6 @@
 Analisis Survival
 ================
+Analisis survival adalah metode statistik yang digunakan untuk menganalisis dan memprediksi waktu hingga terjadinya suatu peristiwa tertentu, dengan tujuan memperhitungkan kemungkinan terjadinya peristiwa tersebut pada periode waktu tertentu dan mengatasi data yang mungkin belum mengalami peristiwa (censored data).
 
 ## Persoalan
 
@@ -142,4 +143,5 @@ Interpretasinya adalah sebagai berikut:
   “gejala” dengan terjadinya penyakit. HR menunjukkan bahwa adanya
   “gejala” menyebabkan kemungkinan positif terkena penyakit menurun
   sebanyak 70%
+
 

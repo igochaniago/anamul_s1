@@ -65,8 +65,7 @@ library(lmtest)
 
 ``` r
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/7_Regresi Linear Berganda/IC_Data Regresi Linear Berganda.xlsx")
-#data <- read_excel ("7_Regresi Linear Berganda/IC_Data Regresi Linear Berganda.xlsx")
+data <- read_excel ("7_Regresi Linear Berganda/IC_Data Regresi Linear Berganda.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -335,3 +334,4 @@ cost sehingga variabel age of furnace sebaiknya dieliminasi dari
 persamaan regresi. Peningkatan adjusted R-square setelah eliminasi juga
 memperkuat alasan variabel ini perlu dieliminasi karena terbukti
 mengurangi explanatory power dan mengurangi value.
+

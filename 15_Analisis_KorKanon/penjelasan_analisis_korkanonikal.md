@@ -84,8 +84,7 @@ library(CCA)
 library(CCP)
 
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/15_Analisis_KorKanon/IC_Data Analisis Korkanonikal.xlsx")
-#data <- read_excel("15_Analisis_KorKanon/IC_Data Analisis Korkanonikal.xlsx")
+data <- read_excel("15_Analisis_KorKanon/IC_Data Analisis Korkanonikal.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -274,3 +273,4 @@ B. Pada Variabel Akademik
 - Dimensi 2 didominasi oleh pengaruh “math” (1.266)
 
 - Dimensi 3 didominasi oleh pengaruh “read” (1.114)
+

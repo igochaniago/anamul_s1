@@ -38,8 +38,7 @@ library(readxl)
 library(MASS)
 
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/6_Analisis Diskriminan/IC_Data Diskriminan.xlsx")
-#data <- read_excel("6_Analisis Diskriminan/IC_Data Diskriminan.xlsx")
+data <- read_excel("6_Analisis Diskriminan/IC_Data Diskriminan.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -207,3 +206,4 @@ Sehingga dapat disimpulkan sebagai berikut:
 - y5 -\> Koefisien paling kecil tetapi signifikan -\> Kontribusi kecil
 
 - y6 -\> Koefisien besar dan signifikan -\> Kontribusi cukup kuat
+

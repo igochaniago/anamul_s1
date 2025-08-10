@@ -45,8 +45,7 @@ library(factoextra)
 
 ``` r
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/11_Analisis Kluster/IC_Data Analisis Cluster.xlsx")
-#data <- read_excel("11_Analisis Kluster/IC_Data Analisis Cluster.xlsx")
+data <- read_excel("11_Analisis Kluster/IC_Data Analisis Cluster.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -153,3 +152,4 @@ interpretasi sebagai berikut:
 - Cluster 1: Kota A, C, D, E, F, G, H, I, J, L
 
 - Cluster 2: Kota K
+

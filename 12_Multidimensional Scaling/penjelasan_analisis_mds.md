@@ -58,8 +58,7 @@ library(MASS)
 
 ``` r
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/12_Multidimensional Scaling/IC_Data MDS.xlsx")
-#data <- read_excel("12_Multidimensional Scaling/IC_Data MDS.xlsx")
+data <- read_excel("12_Multidimensional Scaling/IC_Data MDS.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -248,3 +247,4 @@ Berdasarkan hasil di atas, ditemukan bahwa:
 - Kluster 2: Data ke-33 sampai 48
 
 - Kluster 3: Data ke-17 sampai 32
+

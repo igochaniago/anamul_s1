@@ -15,7 +15,7 @@ Analisis Faktor.xlsx)
 
 Terdapat 110 data dengan 9 variabel.
 
-Obtain the principan component solution untuk m = 2 dan m = 3 common
+Obtain the principal component solution untuk m = 2 dan m = 3 common
 factors
 
 ## Coding
@@ -268,4 +268,5 @@ Kemudian, dapat disimpulkan bahwa:
 - Faktor 3 -\> Variabel “Expert” dan “Passion”
 
 Hal tersebut juga terlihat pada diagram yang tercantum.
+
 

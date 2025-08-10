@@ -37,8 +37,7 @@ library(survminer)
 
 ``` r
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/13_Analisis Survival/IC_Data Analisis Survival.xlsx")
-#data <- read_excel("13_Analisis Survival/IC_Data Analisis Survival.xlsx")
+data <- read_excel("13_Analisis Survival/IC_Data Analisis Survival.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View (data)
@@ -143,3 +142,4 @@ Interpretasinya adalah sebagai berikut:
   “gejala” dengan terjadinya penyakit. HR menunjukkan bahwa adanya
   “gejala” menyebabkan kemungkinan positif terkena penyakit menurun
   sebanyak 70%
+

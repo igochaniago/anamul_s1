@@ -30,8 +30,7 @@ library(readxl)
 library(psych)
 
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/9_Analisis Faktor/IC_Data Analisis Faktor.xlsx")
-#data <- read_excel("9_Analisis Faktor/IC_Data Analisis Faktor.xlsx")
+data <- read_excel("9_Analisis Faktor/IC_Data Analisis Faktor.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -269,3 +268,4 @@ Kemudian, dapat disimpulkan bahwa:
 - Faktor 3 -\> Variabel “Expert” dan “Passion”
 
 Hal tersebut juga terlihat pada diagram yang tercantum.
+

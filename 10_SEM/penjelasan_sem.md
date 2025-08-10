@@ -70,7 +70,7 @@ Dari sini terlihat bahwa data sudah terbaca dengan baik, di mana
 terdapat 12 kolom yang berlaku sebagai indikator dari setiap konstruk
 yang terlihat di model struktural.
 
-### Mendefinisikan Struktur SEM
+### Mendefinisikan Struktur SEM -> CB-SEM
 
 ``` r
 #Struktur SEM
@@ -307,4 +307,5 @@ Melihat dari hasil sebelumnya pada poin (b), didapatkan sebagai berikut:
 
 - Indikator x10, x11, dan x12 dapat menjelaskan konstruk “Kesetiaan
   Pelanggan” dengan baik
+
 

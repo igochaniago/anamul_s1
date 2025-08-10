@@ -55,8 +55,7 @@ library(readxl)
 library(MVN)
 
 #Membaca file data excel
-#data <- read_excel("3_Analisis Normalitas Data/IC_Data Uji Normal.xlsx")
-data <- read_excel("E:/IGO Programming Project/Github Repo/3_Analisis Normalitas Data/IC_Data Uji Normal.xlsx")
+data <- read_excel("3_Analisis Normalitas Data/IC_Data Uji Normal.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -267,3 +266,4 @@ b\. Data yang diuji secara multivariate menunjukkan bahwa:
 
 Sehingga, dataset yang diujikan dapat dianggap secara keseluruhan
 memiliki distribusi tidak normal (non-normal distribution).
+

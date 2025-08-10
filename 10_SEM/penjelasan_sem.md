@@ -49,8 +49,7 @@ library(lavaan)
 
 ``` r
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/10_SEM/IC_Data SEM.xlsx")
-#data <- read_excel("10_SEM/IC_Data SEM.xlsx")
+data <- read_excel("10_SEM/IC_Data SEM.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -308,3 +307,4 @@ Melihat dari hasil sebelumnya pada poin (b), didapatkan sebagai berikut:
 
 - Indikator x10, x11, dan x12 dapat menjelaskan konstruk “Kesetiaan
   Pelanggan” dengan baik
+

@@ -58,8 +58,7 @@ library(vcdExtra)
 
 ``` r
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/8_Regresi Logistik/IC_Data Regresi Logistik.xlsx")
-#data <- read_excel("8_Regresi Logistik/IC_Data Regresi Logistik.xlsx")
+data <- read_excel("8_Regresi Logistik/IC_Data Regresi Logistik.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
@@ -229,3 +228,4 @@ menunjukkan nilai sebesar 9.698589 dengan p-value \>0.05. Sehingga dapat
 dinyatakan bahwa model mampu memprediksi nilai observasinya atau dapat
 dianggap bahwa **model dapat diterima dan sesuai dengan data
 observasinya**.
+

@@ -9,7 +9,7 @@ Pengolahan data yang ada di repository ini mencakup:
 4. ANOVA
 5. MANOVA
 6. Analisis Diskriminan
-7. Analisis Regresi Berganda
+7. Analisis Regresi Linear Berganda
 8. Analisis Regresi Logistik
 9. Analisis Faktor
 10. SEM

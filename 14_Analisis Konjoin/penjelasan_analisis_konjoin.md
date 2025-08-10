@@ -38,8 +38,7 @@ library(readxl)
 library(conjoint)
 
 #Membaca file data excel
-path <- "E:/IGO Programming Project/Github Repo/14_Analisis Konjoin/IC_Data Analisis Konjoin.xlsx"
-#path <- "14_Analisis Konjoin/IC_Data Analisis Konjoin.xlsx"
+path <- "14_Analisis Konjoin/IC_Data Analisis Konjoin.xlsx"
 
 #Kelompok data
 profile <- read_excel(path, sheet = "Sheet1", range = "A1:D11")
@@ -179,3 +178,4 @@ oleh customer yaitu:
 - Light: Low Fat
 
 - Organic: No Organic
+

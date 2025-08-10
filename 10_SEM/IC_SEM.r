@@ -6,8 +6,7 @@ library(semPlot)
 library(lavaan)
 
 #Membaca file data excel
-data <- read_excel("E:/IGO Programming Project/Github Repo/10_SEM/IC_Data SEM.xlsx")
-#data <- read_excel("10_SEM/IC_Data SEM.xlsx")
+data <- read_excel("10_SEM/IC_Data SEM.xlsx")
 
 #Mengecek file excel sudah dapat terbaca
 View(data)
